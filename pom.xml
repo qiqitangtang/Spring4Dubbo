@@ -12,6 +12,7 @@
         <module>dubboclient</module>
         <module>dubboserver</module>
         <module>coreservice</module>
+        <module>maven-test</module>
     </modules>
 
 
