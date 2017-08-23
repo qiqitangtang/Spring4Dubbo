@@ -15,22 +15,18 @@ public class DemoServiceImpl implements DemoService {
     public List getUsers() {  
         List list = new ArrayList();
         User u1 = new User();
-<<<<<<< HEAD
 
   
         User u2 = new User();
 
         User u3 = new User();
 
+  
+        
 
-=======
-        User u2 = new User();
-
->>>>>>> prod
         list.add(u1);  
-        list.add(u2);
-        list.add(u3);
-
+        list.add(u2);  
+          
         return list;  
     }  
 }  
