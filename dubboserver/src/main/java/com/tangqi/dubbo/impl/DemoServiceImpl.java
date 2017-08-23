@@ -15,16 +15,8 @@ public class DemoServiceImpl implements DemoService {
     public List getUsers() {  
         List list = new ArrayList();
         User u1 = new User();
-        u1.setName("hejingyuan");  
-        u1.setAge(20);  
-        u1.setSex("f");  
-  
-        User u2 = new User();  
-        u2.setName("xvshu");  
-        u2.setAge(21);  
-        u2.setSex("m");  
-  
-          
+        User u2 = new User();
+
         list.add(u1);  
         list.add(u2);  
           
